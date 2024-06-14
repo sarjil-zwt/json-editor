@@ -1,0 +1,376 @@
+{
+    "data": {
+        "account_info": {
+            "firstname": "Stock",
+            "surname": "admin",
+            "email": "adam@tixstock.com",
+            "is_read_new_notifications": 0,
+            "base_currency": "GBP",
+            "available_amount": 0,
+            "is_god_admin": true,
+            "seller_type": "Business"
+        },
+        "teams": [
+            {
+                "id": 409,
+                "name": "7tickets user",
+                "base_currency": "GBP",
+                "users": [
+                    {
+                        "id": 628,
+                        "team_id": 409,
+                        "name": "7tickets user"
+                    }
+                ]
+            },
+            {
+                "id": 694,
+                "name": "Abc",
+                "base_currency": "USD",
+                "users": [
+                    {
+                        "id": 1040,
+                        "team_id": 694,
+                        "name": "Larry bob"
+                    }
+                ]
+            },
+            {
+                "id": 695,
+                "name": "Abc",
+                "base_currency": "GBP",
+                "users": [
+                    {
+                        "id": 1041,
+                        "team_id": 695,
+                        "name": "Larry Page"
+                    }
+                ]
+            },
+            {
+                "id": 90,
+                "name": "Adam Ramsden",
+                "base_currency": "GBP",
+                "users": [
+                    {
+                        "id": 126,
+                        "team_id": 90,
+                        "name": "Adam Ramsden"
+                    },
+                    {
+                        "id": 696,
+                        "team_id": 90,
+                        "name": "Bhavin Test"
+                    },
+                    {
+                        "id": 926,
+                        "team_id": 90,
+                        "name": "Denish Godara"
+                    },
+                    {
+                        "id": 586,
+                        "team_id": 90,
+                        "name": "iRagon iRagon"
+                    },
+                    {
+                        "id": 788,
+                        "team_id": 90,
+                        "name": "Jason Downey"
+                    },
+                    {
+                        "id": 582,
+                        "team_id": 90,
+                        "name": "Monna Hiller"
+                    },
+                    {
+                        "id": 719,
+                        "team_id": 90,
+                        "name": "morris kellin"
+                    },
+                    {
+                        "id": 564,
+                        "team_id": 90,
+                        "name": "Nick Martin"
+                    },
+                    {
+                        "id": 482,
+                        "team_id": 90,
+                        "name": "Nick Martin"
+                    },
+                    {
+                        "id": 824,
+                        "team_id": 90,
+                        "name": "Simon Taylor"
+                    },
+                    {
+                        "id": 180,
+                        "team_id": 90,
+                        "name": "User 1 Team"
+                    },
+                    {
+                        "id": 697,
+                        "team_id": 90,
+                        "name": "Vastav TEST"
+                    }
+                ]
+            },
+            {
+                "id": 108,
+                "name": "Ahmd Rmdn",
+                "base_currency": "GBP",
+                "users": [
+                    {
+                        "id": 160,
+                        "team_id": 108,
+                        "name": "Ahmd Rmdn"
+                    }
+                ]
+            },
+            {
+                "id": 477,
+                "name": "Alden Smith",
+                "base_currency": "USD",
+                "users": [
+                    {
+                        "id": 745,
+                        "team_id": 477,
+                        "name": "Alden Smith"
+                    },
+                    {
+                        "id": 777,
+                        "team_id": 477,
+                        "name": "Arthur Chandler"
+                    },
+                    {
+                        "id": 778,
+                        "team_id": 477,
+                        "name": "Noah Jack"
+                    }
+                ]
+            },
+            {
+                "id": 120,
+                "name": "alex chesciy",
+                "base_currency": "USD",
+                "users": [
+                    {
+                        "id": 176,
+                        "team_id": 120,
+                        "name": "alex chesciy"
+                    }
+                ]
+            },
+            {
+                "id": 107,
+                "name": "Algirdas Grumuldis",
+                "base_currency": "GBP",
+                "users": [
+                    {
+                        "id": 158,
+                        "team_id": 107,
+                        "name": "Algirdas Grumuldis"
+                    }
+                ]
+            },
+            {
+                "id": 447,
+                "name": "aman 2",
+                "base_currency": "USD",
+                "users": [
+                    {
+                        "id": 690,
+                        "team_id": 447,
+                        "name": "aman 8"
+                    },
+                    {
+                        "id": 693,
+                        "team_id": 447,
+                        "name": "aman10 10"
+                    },
+                    {
+                        "id": 691,
+                        "team_id": 447,
+                        "name": "aman9 9"
+                    }
+                ]
+            },
+            {
+                "id": 512,
+                "name": "Tukmein Test User",
+                "base_currency": "USD",
+                "users": [
+                    {
+                        "id": 825,
+                        "team_id": 512,
+                        "name": "Tukmein Test User"
+                    }
+                ]
+            },
+            {
+                "id": 396,
+                "name": "Vin Hiller",
+                "base_currency": "EUR",
+                "users": [
+                    {
+                        "id": 779,
+                        "team_id": 396,
+                        "name": "Donna hiller"
+                    },
+                    {
+                        "id": 611,
+                        "team_id": 396,
+                        "name": "Ross Knight"
+                    },
+                    {
+                        "id": 610,
+                        "team_id": 396,
+                        "name": "Vin Hiller"
+                    }
+                ]
+            }
+        ],
+        "package_detail": {
+            "current_package": "",
+            "subsctiption_fee": 0,
+            "commission": 0,
+            "package_user_count": 4,
+            "additional_users": 0
+        },
+        "allowed_access": [
+            {
+                "id": "users",
+                "name": "Administrate users",
+                "status": true
+            },
+            {
+                "id": "txpay",
+                "name": "Administrate tx pay",
+                "status": true
+            },
+            {
+                "id": "txtrade",
+                "name": "Administrate tx trade",
+                "status": true
+            },
+            {
+                "id": "settings",
+                "name": "Administrate settings",
+                "status": true
+            }
+        ],
+        "package_addons": [
+            {
+                "id": 990,
+                "name": "Market Insights",
+                "price": "&#163;233.00 per month",
+                "is_included": false
+            }
+        ],
+        "header_notification": [
+            {
+                "message": "Warning your team has 0 listings with publish errors. {{manage_inventory_link}}",
+                "error_code": "warning"
+            },
+            {
+                "message": "You're team is currently on a free trial that expires in ",
+                "error_code": "info"
+            }
+        ],
+        "status": true,
+        "fundin_account": {
+            "id": 161,
+            "bank_name": "Halifax",
+            "account_holder_name": "Kushagra J",
+            "tx_type": "Deposit",
+            "txpay_wallet_id": "587424",
+            "ac_number": "12447760",
+            "iban": "GB46HLFX11069712447760",
+            "sort_code": "",
+            "swift_code": "HLFXGB21T33",
+            "mc_recipient_id": "",
+            "status": 1,
+            "created_at": "",
+            "updated_at": "",
+            "deleted_at": ""
+        },
+        "seller_fundin_account": {
+            "name": "Seller Fund In",
+            "iban": "GI91MOYP000007700809520",
+            "swift_code": "CK7700809520KC"
+        },
+        "tx_pay_info_status": true,
+        "tx_pay_info_data": {},
+        "connected_exchanges": [
+            2,
+            26
+        ],
+        "is_connected_to_preferred_partners": 1,
+        "currency_rate": {
+           
+            "SEK": {
+                "AED": 0.353518,
+                "AUD": 0.144546,
+                "AZN": 0.164228,
+                "BHD": 0.036275,
+                "CHF": 0.086026,
+                "DKK": 0.664107,
+                "EUR": 0.089024,
+                "GBP": 0.07523,
+                "HUF": 35.174089,
+                "KWD": 0.02949,
+                "NOK": 1.018319,
+                "QAR": 0.350435,
+                "RON": 0.443208,
+                "RUB": 8.602197,
+                "SAR": 0.361028,
+                "SEK": 1,
+                "USD": 0.096247,
+                "ZAR": 1.76941
+            },
+            "USD": {
+                "AED": 3.673033,
+                "AUD": 1.501828,
+                "AZN": 1.706315,
+                "BHD": 0.376891,
+                "CHF": 0.89381,
+                "DKK": 6.900025,
+                "EUR": 0.92495,
+                "GBP": 0.781635,
+                "HUF": 365.456503,
+                "KWD": 0.306401,
+                "NOK": 10.580265,
+                "QAR": 3.640993,
+                "RON": 4.604899,
+                "RUB": 89.376269,
+                "SAR": 3.751058,
+                "SEK": 10.389935,
+                "USD": 1,
+                "ZAR": 18.38405
+            }
+        },
+        "ui_field_settings": {
+            
+            "InstructionLetterTableColumn": [
+                {
+                    "id": 0,
+                    "name": "Title",
+                    "checked": true,
+                    "searched": true
+                },
+                {
+                    "id": 1,
+                    "name": "Status",
+                    "checked": true,
+                    "searched": true
+                }
+            ],
+            "wallet_bank_details_filter_[object Object]": [],
+            "wallet_bank_details_column_[object Object]": [],
+            "saveTxTradePolicy": 0
+        }
+    },
+    "meta": {
+        "mode": "Sandbox"
+    },
+    "message": "Record found successfully"
+}
