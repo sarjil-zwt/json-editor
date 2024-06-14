@@ -102,7 +102,8 @@ const JsonTreeViewer = ({ data, basePath = "data" }: any) => {
             {Object?.keys(entries).map((key) => {
               return (
                 <p>
-                  <span>{key}</span>:{entries[key]}
+                  <span>{key}:</span>
+                  {entries[key]}
                 </p>
               );
             })}
