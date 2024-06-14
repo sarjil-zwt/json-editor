@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 
 const JsonTreeViewer = ({ data, basePath = "data" }: any) => {
   const [dropdownState, setDropdownState] = useState<{
@@ -25,7 +25,7 @@ const JsonTreeViewer = ({ data, basePath = "data" }: any) => {
                   {typeof item === "object" ? (
                     ""
                   ) : (
-                    <button onClick={(e) => handleClick(newPath, e)}>
+                    <button onClick={() => handleClick(newPath)}>
                       {item.toString()}
                     </button>
                   )}
@@ -52,9 +52,7 @@ const JsonTreeViewer = ({ data, basePath = "data" }: any) => {
                     typeof node[key] !== "object" ? "lastnode" : ""
                   }`}
                 >
-                  <button onClick={(e) => handleClick(newPath, e)}>
-                    {key}:
-                  </button>
+                  <button onClick={() => handleClick(newPath)}>{key}:</button>
                   {typeof node[key] === "object" ? "" : node[key].toString()}
                   {renderNode(node[key], newPath)}
                 </div>
@@ -69,7 +67,7 @@ const JsonTreeViewer = ({ data, basePath = "data" }: any) => {
     }
   };
 
-  const handleClick = (path: string, event: React.MouseEvent) => {
+  const handleClick = (path: string) => {
     // const buttonElement = event.currentTarget as HTMLElement;
     const element = document?.getElementById(path);
     // const rect = buttonElement.getBoundingClientRect();
