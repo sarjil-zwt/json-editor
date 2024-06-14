@@ -1,4 +1,3 @@
-import React from "react";
 import "./App.css";
 import JsonTreeViewer from "./JsonTreeViewer";
 import jsonData from "./data.json";
